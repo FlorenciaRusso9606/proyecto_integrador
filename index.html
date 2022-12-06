@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Link hamburger button CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <!-- Link own CSS file -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- Page title -->
+    <title>Codo a Codo page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- navegation bar -->
+        <nav class="nav">
+          <div>
+            <h2>Conf Bs As</h2>
+          </div>
+          <button class="panel-btn hamburger hamburger--3dxy" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <aside class="panel">
+             <!-- Menu -->
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="gray">La conferencia</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="gray">Los oradores</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="gray">El lugar y la fecha</a>
+              </li class="menu-item">
+              <li class="menu-item"><a href="#" class="white"> Conviértete en orador</a></li>
+              <li class="menu-item"><a href="#" class="green">Comprar tickets</a></li>
+            </ul>
+          </aside>
+        </nav>
+      </header>
+      <!-- Main content -->
+      <main>
+        <!-- Cards section -->
+        <section class="cards">
+          <div class="card-ticket card-student">
+            <h3>Estudiante</h3>
+            <h4>Tiene un descuento</h4>
+            <p>80%</p>
+            <h5>*presentar documentacióm</h5>
+          </div>
+          <div class="card-ticket card-trainee">
+            <h3>Trainee</h3>
+            <h4>Tiene un descuento</h4>
+            <p>50%</p>
+            <h5>*presentar documentacióm</h5>
+          </div>
+          <div class="card-ticket card-juniot">
+            <h3>Junior</h3>
+            <h4>Tiene un descuento</h4>
+            <p>15%</p>
+            <h5>*presentar documentacióm</h5>
+          </div>
+        </section>
+        <div class="tittles">
+          <h4>VENTA</h4>
+          <h1>Valor de ticket $200</h1>
+        </div>
+          <!-- Form -->
+        <form action="" id="form">
+          <div class="form-field fname-field">
+            <label for="fname"></label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Nombre"
+              required
+            />
+            <small></small>
+          </div>
+          <div class="form-field lname-field">
+            <label for="lname"></label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Apellido"
+              required
+            />
+            <small></small>
+          </div>
+          <div class="form-field email-field">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Correo"
+              required
+            />
+            <small></small>
+          </div>
+          <div class="form-field quantity-field">
+            <label for="quantity">Cantidad</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              placeholder="Cantidad"
+            />
+            <small></small>
+          </div>
+          <div class="form-field category-field">
+            <label for="category">Categoría</label>
+            <select id="category" name="category">
+              <option value="student">Estudiante</option>
+              <option value="trainee">Trainee</option>
+              <option value="junior">Junior</option>
+            </select>
+          </div>
+          <div class="payment-field">
+            <p >Total a Pagar: $<span id="payment"></span></p>
+          </div>
+          <div class="container-buttons">
+            <input type="reset" value="Borrar" id="resetBtn" />
+            <input type="submit" value="Resumen" id="sumary"></input>
+          </div>
+        </form>
+      </main>
+         <!-- Footer-->
+      <footer class="footer">
+        <ul>
+          <li><a href="#"> Preguntas Frecuentes </a></li>
+          <li><a href="#"> Contáctanos </a></li>
+          <li><a href="#"> Prensa </a></li>
+          <li><a href="#"> Conferencias </a></li>
+          <li><a href="#"> Términos y condiciones </a></li>
+          <li><a href="#"> Privacidad </a></li>
+          <li><a href="#"> Estudiantes </a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="tickets.js"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
