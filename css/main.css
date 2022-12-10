@@ -47,7 +47,7 @@ nav {
   align-items: center;
   padding: 2rem;
 }
-nav div h2 {
+nav div h1 {
   color: white;
   font-size: 2.2rem;
   margin: 0;
@@ -142,10 +142,10 @@ nav div h2 {
   width: fit-content;
   height: 15.5rem;
 }
-.card-ticket h3 {
+.card-ticket h2 {
   font-size: 2rem;
 }
-.card-ticket h4 {
+.card-ticket h3 {
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -153,7 +153,7 @@ nav div h2 {
   font-size: 1.3rem;
   font-weight: 700;
 }
-.card-ticket h5 {
+.card-ticket h4 {
   font-size: 1.1rem;
   font-weight: 300;
   color: gray;
@@ -177,7 +177,7 @@ nav div h2 {
   font-size: 1.5rem;
   font-weight: 400;
 }
-.tittles h1 {
+.tittles h5 {
   font-size: 3rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
